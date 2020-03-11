@@ -1,0 +1,11 @@
+#evenements {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(31, 1fr);
+    border: 1px solid black;
+
+    h2 {
+      border: 1px solid black;
+      font-size: 1em;
+    }
+}

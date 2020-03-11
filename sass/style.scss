@@ -1,0 +1,46 @@
+/*
+ Theme Name:   Ex10
+ Template:     underscore
+*/
+
+body {
+    font-family: Roboto;
+  }
+  
+  #masthead {
+    background-color: #fbfbe3;
+    border-bottom: 2px solid;
+}
+  .entry .entry-title:before {
+    height: 0;
+  }
+
+  #page {
+      background-color: #e0e0e0;
+  }
+
+  .post-edit-link {
+      display: none;
+  }
+
+  #evenements {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(31, 1fr);
+    border: 1px solid black;
+
+    h2 {
+      border: 1px solid black;
+      font-size: 1em;
+    }
+}
+
+  @media only screen and (max-width: 782px) {
+    .site-description {
+      display: block;
+    }
+  }
+
+  
+@import "site/site";
+
