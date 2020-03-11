@@ -1,0 +1,61 @@
+/*
+ Theme Name:   Exercice 10
+ Template:     underscore
+*/
+body {
+  font-family: Roboto;
+}
+
+#masthead {
+  background-color: #fbfbe3;
+  border-bottom: 2px solid;
+}
+
+.entry .entry-title:before {
+  height: 0;
+}
+
+#page {
+  background-color: #e0e0e0;
+}
+
+.post-edit-link {
+  display: none;
+}
+
+#evenements {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: (1fr)[31];
+      grid-template-rows: repeat(31, 1fr);
+  border: 1px solid black;
+}
+
+#evenements h2 {
+  border: 1px solid black;
+  font-size: 1em;
+}
+
+@media only screen and (max-width: 782px) {
+  .site-description {
+    display: block;
+  }
+}
+
+#evenements {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: (1fr)[31];
+      grid-template-rows: repeat(31, 1fr);
+  border: 1px solid black;
+}
+
+#evenements h2 {
+  border: 1px solid black;
+  font-size: 1em;
+}
+/*# sourceMappingURL=style.css.map */
