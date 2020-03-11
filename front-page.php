@@ -73,7 +73,7 @@ get_header();
 		while ( $query2->have_posts() ) {
 			$query2->the_post();
 			echo '<h3>' . get_the_title( $query2->post->ID ) . '</h3>';
-			echo "<button id='bouton'>ok</button>";
+			echo "<button id='bouton' >ok</button>";
 		}
 		  
 		// Restore original Post Data
